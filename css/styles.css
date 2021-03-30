@@ -31,12 +31,9 @@ h1 {
 .image {
     display: block;
     text-align: center;
-    transition: 5s all;
+    
 }
 
 h2 {
     text-align: center;
-}
-.image:hover {
-    transform: rotate(360deg);
 }
