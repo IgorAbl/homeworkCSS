@@ -31,9 +31,20 @@ h1 {
 .image {
     display: block;
     text-align: center;
-    
+
 }
 
 h2 {
     text-align: center;
+}
+.inline {
+    display: inline;
+    font-size: 25px;
+}
+.all {
+    display: inline-block;
+    width: 39%;
+    margin-left: 30.5%;
+    margin-right: 30.5%;
+
 }
