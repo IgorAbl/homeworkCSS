@@ -1,8 +1,8 @@
 body {
     margin: 0px;
-    /* background-image: url(./../images/pentagon.jpeg); */ /*плохо смотрится, не буду показывать*/
+    background-image: url(./../images/krasiviyy-fon-dlya-krasivogo-garazha.jpg); 
 }
-a {
+.alllinks {
     width: 17%;
     height: 40px;
     display: inline-block;
@@ -19,7 +19,7 @@ a {
     border-radius: 50px;
 }
 .shaddow:hover {
-    box-shadow: 0px 0px 40px 30px rgb(8, 151, 218);
+    box-shadow: 0px 0px 40px 30px lime;
 }
 .unusable:hover {
     opacity: 0.3;
@@ -41,8 +41,34 @@ h2 {
 .inline {
     display: inline;
     font-size: 25px;
+    margin: 4px;
 }
 .all {
     display: flex;
     justify-content: center;
+}
+.under {
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.one {
+    background-color: green;
+}
+.two {
+    background-color: greenyellow;
+}
+.none {
+    color: purple;
+}
+.black {
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: black;
+}
+.white {
+    color: white;
 }
