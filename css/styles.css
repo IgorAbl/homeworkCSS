@@ -1,8 +1,12 @@
 body {
-    margin: 0px; 
-    background-image: url(./../images/krasiviyy-fon-dlya-krasivogo-garazha.jpg);
-    background-position: top;
+    margin: 0px;
+    background-image: url(./../images/krasiviyy-fon-dlya-krasivogo-garazha.jpg) ;
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
 }
 
 
